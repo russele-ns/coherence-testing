@@ -1,0 +1,30 @@
+component _856c0ed07fd0acd40b283e9f7e45323a_6939265188583656138 [id "18"]
+  position Vector3 [sim-frames "true", compression "None"]
+  rotation Quaternion [bits "32", sim-frames "true"]
+
+component _b27a78c6dc553084a9142f8a586123f8_2812586797811133346 [id "19"]
+  IsBeingCarried Bool [bits "1"]
+
+component _b27a78c6dc553084a9142f8a586123f8_3526234339562450199 [id "20"]
+  path String [bits "37"]
+  pathDirtyCounter Int [bits "32", range-min "-2147483648", range-max "2147483647"]
+
+component _f7dcb50d464e141bb85c5d72434e2f8c_1595157206837191602 [id "21"]
+  position Vector3 [sim-frames "true", compression "None"]
+
+component _f7dcb50d464e141bb85c5d72434e2f8c_3053908138361248390 [id "22"]
+  VelocityY Float [compression "None"]
+  AnimationSpeed Float [compression "None"]
+  Jump Bool [bits "1"]
+  Grounded Bool [bits "1"]
+  FreeFallDuration Float [compression "None"]
+
+component _f7dcb50d464e141bb85c5d72434e2f8c_3909198552495372456 [id "23"]
+  rotation Quaternion [bits "32", sim-frames "true"]
+
+component _f7dcb50d464e141bb85c5d72434e2f8c_6710452508646171906 [id "24"]
+  rotation Quaternion [bits "32", sim-frames "true"]
+
+command _714b9f8fd47e343158014373676f77d0_97320cdaa6f641c98d6f57d68520c0e5 [id "6", routing "All"]
+  spawnPosition Vector3 [compression "None"]
+
